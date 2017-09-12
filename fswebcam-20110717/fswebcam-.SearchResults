@@ -1,0 +1,18 @@
+---- gdImageDestroy Matches (17 in 4 files) ----
+Dec_jpeg.c:	gdImageDestroy(im);
+Dec_png.c:	gdImageDestroy(im);
+Effects.c:			gdImageDestroy(line);
+Effects.c:			gdImageDestroy(line);
+Effects.c:	gdImageDestroy(src);
+Effects.c:	gdImageDestroy(src);
+Effects.c:	gdImageDestroy(src);
+Fswebcam.c:	gdImageDestroy(overlay);
+Fswebcam.c:		gdImageDestroy(im);
+Fswebcam.c:	gdImageDestroy(im);
+Fswebcam.c:		gdImageDestroy(image);
+Fswebcam.c:			gdImageDestroy(image);
+Fswebcam.c:	gdImageDestroy(image);
+Fswebcam.c:	gdImageDestroy(original);
+Fswebcam.c:		gdImageDestroy(image);
+Fswebcam.c:	gdImageDestroy(image);
+Fswebcam.c:	gdImageDestroy(original);
