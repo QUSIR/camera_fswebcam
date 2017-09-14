@@ -1597,7 +1597,7 @@ int fswc_getopts(fswebcam_config_t *config, int argc, char *argv[])
 int fswc_free_config(fswebcam_config_t *config)
 {
 	if(config->pidfile) free(config->pidfile);
-	if(config->logfile) free(config->logfile);
+	//if(config->logfile) free(config->logfile);
 	if(config->device) free(config->device);
 	if(config->input) free(config->input);
 	
@@ -1825,7 +1825,10 @@ int open_camere(){
 	//MSG("src.option.value is %s\n",src.option.value);
 */
 
-
+	char log[]="fswebcam.log";
+	task_config->logfile=log;
+	//strcpy(task_config->logfile,"fswebcam.log");
+	if(task_config->logfile && fswc_openlog(task_config)) return(-1);
 
 	if(src_open(&task_src,Camera_Dev) == -1) return(-1);
 

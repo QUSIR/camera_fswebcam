@@ -1,0 +1,28 @@
+Trying source module v4l2...
+/dev/video0 opened.
+No input was specified, using the first.
+Writing JPEG image to '0.jpg'.
+Writing JPEG image to '1.jpg'.
+Writing JPEG image to '2.jpg'.
+Writing JPEG image to '3.jpg'.
+Writing JPEG image to '4.jpg'.
+Writing JPEG image to '5.jpg'.
+Writing JPEG image to '6.jpg'.
+Writing JPEG image to '7.jpg'.
+Writing JPEG image to '8.jpg'.
+Writing JPEG image to '9.jpg'.
+Captured 10 frames in 0.45 seconds. (22 fps)
+Trying source module v4l2...
+/dev/video0 opened.
+No input was specified, using the first.
+Writing JPEG image to '0.jpg'.
+Writing JPEG image to '1.jpg'.
+Writing JPEG image to '2.jpg'.
+Writing JPEG image to '3.jpg'.
+Writing JPEG image to '4.jpg'.
+Writing JPEG image to '5.jpg'.
+Writing JPEG image to '6.jpg'.
+Writing JPEG image to '7.jpg'.
+Writing JPEG image to '8.jpg'.
+Writing JPEG image to '9.jpg'.
+Captured 10 frames in 0.48 seconds. (21 fps)
